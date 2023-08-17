@@ -1,0 +1,15 @@
+{
+  "name": "jadoo",
+  "version": "1.0.0",
+  "description": "The site about travelling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zlata Chernihova",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.65.1"
+  }
+}
