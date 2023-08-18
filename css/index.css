@@ -3,6 +3,72 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.header {
+  z-index: 1;
+}
+.header__content {
+  justify-content: space-around;
+}
+.header__content .nav__list {
+  gap: 50px;
+}
+.header__content .nav__list .button--primary {
+  border-radius: 10px;
+  background: #F1A501;
+  text-align: center;
+  padding: 5px 20px;
+  color: #fff;
+  border: 2px solid #F1A501;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  transition: 0.4s;
+}
+.header__content .nav__list .button--primary:hover {
+  border: 2px solid #F1A501;
+  box-shadow: 0px 1.8518518209px 3.1481480598px 0px rgba(0, 0, 0, 0), 0px 8.1481485367px 6.5185184479px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.5185203552px 25.4814815521px 0px rgba(0, 0, 0, 0.01), 0px 64.8148117065px 46.851852417px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.decore--block {
+  max-width: 500px;
+  min-width: 200px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+.decore--block .decore--side {
+  width: 100%;
+  min-width: 300px;
+}
+
+.nav__list--link {
+  color: #212832;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+}
+.nav__list--link:hover {
+  color: #F1A501;
+}
+
+.button--primary {
+  color: #212832;
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */

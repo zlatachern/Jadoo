@@ -1,1 +1,19 @@
 @use './variables';
+
+@mixin fontStyle ($color, $fFamily, $fSize, $fWeight, $lHeight: null) {
+  color: $color;
+  font-family: $fFamily;
+  font-size: $fSize;
+  font-weight: $fWeight;
+  line-height: $lHeight;
+}
+
+@mixin buttonStyle ($borRadius: null, $bGround: null, $bShadow: null, $width: null, $padding: null, $color: null, $tAlign: center) {
+  border-radius: $borRadius;
+  background: $bGround;
+  box-shadow: $bShadow;
+  width: $width;
+  padding: $padding;
+  color: $color;
+  text-align: $tAlign;
+}
